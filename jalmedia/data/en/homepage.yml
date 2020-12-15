@@ -1,0 +1,162 @@
+########################## hero area ##########################
+hero:
+  title : "I'm Jade Ashton-Linnett"
+
+  # animated text loop
+  occupations:
+    - "Junior UX Designer"
+    - "Junior Graphic Designer"
+    - "Junior Digital Content Creator"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "HIRE ME"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/bloom.jpg"
+  first_name : "Jade"
+  last_name : "Ashton-Linnett"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "KNOW MORE <br> ABOUT ME"
+  content : "Hi i'm Jade, Junior Creator. I love to design interfaces, it's my passion. I am here to help you, I am here to design and assist in the production of wireframes, prototypes, concept sketches,and user flows using key tools such as invison and Figma. I can help you to describe yourself in the best way.. I value the small details of the design development process, I am very interested in the UX field and how products are made to fit the purpose of the audience, humans!, Get in touch with me..😊"
+  # button
+  button:
+    enable : true
+    label : "DOWNLOAD MY CV"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "UX Research"
+      company : "TVPP"
+      duration : "2020-2021"
+      content : "Conducted in a team, user research to analyse user
+behaviour to find the best UX method of user roaming for
+the Malmesbury virtual exploration site"
+      
+    # experience item loop
+    - name : "UX Design"
+      company : "Fruto Design Studio"
+      duration : "2020"
+      content : "Worked collaboratively in a team, to conduct user research
+interviews. Designed and tested a prototype using Invision
+for an interactive mobile system/application based around
+the theme of healthy eating."
+
+    # experience item loop
+    - name : "Student"
+      company : "The University of West England"
+      duration : "2019-2021"
+      content : "I have learnt how to apply a range of
+techniques from key areas of Digital Media to
+the creative industry, Graphic design, Web
+design, Multimedia, Programming and UX.
+<br>
+
+As someone who is very creative, I really
+enjoyed the design side of Digital Media
+especially, Graphic design, data visualisation
+using animation and UX design & research.
+Soon to graduate in Summer 2021.
+"
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "SKILL"
+  skill_list:
+    # skill item loop
+    - name : "User interaction Design"
+      percentage : "60%"
+      
+    # skill item loop
+    - name : "Graphic Design"
+      percentage : "68%"
+      
+    # skill item loop
+    - name : "Animation"
+      percentage : "40%"
+      
+    # skill item loop
+    - name : "Code"
+      percentage : "3%"
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "MY SERVICES"
+  service_list:
+    # service item loop
+    - name : "UX Design"
+      
+    # service item loop
+    - name : "Graphic Design"
+
+    # service item loop
+    - name : "Animation"
+      
+    # service item loop
+    - name : "Web User Interface design"
+      
+    # service item loop
+    - name : "UX Research"
+      
+    # service item loop
+    - name : "Mobile App prototyping"
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/backgrounds/desktop.jpg"
+  title : "Need a Junior Digital Content Creator?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PORTFOLIO"
+  portfolio_list:
+ # portfolio item loop
+    - name : "'Eat in'<br> Fruto work"
+      image : "images/portfolio/Eatin.png"
+      date : "Feb 2020"
+      category : "UX Design & Research"
+
+    # portfolio item loop
+    - name : "DES"
+      image : "images/portfolio/des.png"
+      date : "October 2020"
+      category : "DES"
+      
+      # portfolio item loop
+    - name : "ID"
+      image : "images/portfolio/id.PNG"
+      date : "October-December 2020"
+      category : "ID"
+############################## contact ###########################
+contact:
+  enable : true
+  title : "SAY HELLO!"
