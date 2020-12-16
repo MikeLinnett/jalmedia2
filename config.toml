@@ -4,7 +4,7 @@ title = "Jalmedia | Digital Portfolio"
 theme = "somrat"
 # disable language
 disableLanguages = [] # disable language from here
-
+command = "CI= npm run build"
 ############################# Plugins ##############################
 
 # CSS Plugins
